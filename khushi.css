@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 09%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff00;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  h2{
+    position: absolute;
+    top:18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #62ff00;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;           
+  }
+  h3{
+    position: absolute;
+    top:  13%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #f92404;
+    font-family: "Source Sans Pro";
+    font-size: 7em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;           
+  }
+  h6{
+    position: absolute;
+    top:  43%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #1ee0cc;
+    font-family: "Source Sans Pro";
+    font-size: 1.5em;
+    font-weight:100px;
+    -webkit-user-select: none;
+    user-select: none;           
+  }
+  h5{
+    position: absolute;
+    top:  43%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    color: #33dac4;
+    font-family: "Source Sans Pro";
+    font-size: 1.5em;
+    font-weight:100px;
+    -webkit-user-select: none;
+    user-select: none;           
+  }
+.khushi{
+  justify-content: center;
+  text-align: center;
+  margin-top: 14rem;
+  margin-left: 0rem;
+  position: fixed;
+  top: 0;
+  left: 33rem;  
+
+}
+ /*
+.video-container {
+  display: flex;
+  margin-top: 1px;
+  padding-top: 1px;
+  padding-left: 2rem;
+  margin-left: 5px;
+  height: 20rem;
+  width: 20rem;
+}
+
+ 
+.video-container1 {
+  display: flex;
+  margin-left: 10px;
+  height: 10rem;
+  width: 10rem;
+}
+
+.video-container2{
+display: flex;
+  margin-right: 0rem;
+  height: 10rem;
+  width: 10rem;
+}
+.video-container3{
+  display: flex;
+    margin-bottom: 50rem,50rem;
+    height: 10rem;
+    width: 10rem;
+  }
+
+
+.controls {
+  position: relative;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align:right;
+}
+
+.controls button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.controls input[type="range"] {
+  width: 80%;
+}
+
+ */
+
+/* 
+ .khushi {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+} */
+/* khushi {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* Ensure image is above other elements */
+/* } */ 
+
+.video-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.video-container3 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.video-container1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.video-container2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Adjustments for video playback */
+video {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  border: 1px solid #ccc; /* Optional border */
+}
+
+
